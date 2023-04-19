@@ -1,3 +1,9 @@
+---
+layout: post
+title:  Gymcoding Practice 1
+---
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
