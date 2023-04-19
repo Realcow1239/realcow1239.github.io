@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lean and practice HTML 1</title>
+  </head>
+  <body>
+    <p>테스트</p>
+    <br />
+    <h1>HTML 학습</h1>
+    <h2>테스트</h2>
+    <hr />
+    <p>
+      h1태그는 한 문서에서 한번만 사용한다
+      <br />
+      h1, h2, h3 ... h1부터, 건너뛰지 말고, 순서대로 사용한다
+    </p>
+    <br />
+    <!--
+      1. <h1>태그는 한번만 사용한다
+      2. <h1>태그부터 순차적으로 사용한다
+    -->
+    <h2>p태그와 br태그</h2>
+    <hr />
+    <p>
+      <!--
+      1. 웹 브라우저는 스페이스바 간격이 아무리 많아도 1칸으로 인식
+      2. 웹 브라우저는 줄바꿈을 인식X, 줄바꿈은 br태그를 사용
+      3. 하나의 p태그로 하나의 단락을 표현, 줄바꿈은 br을 사용할 것
+      -->
+      <ol>
+        <li>웹 브라우저는 스페이스바 간격이 많아도 1개 띄어쓰기만 인식</li>
+        <li>웹 브라우저는 임의의 줄바꿈을 인식X. 줄바꿈은 br태그 활용</li>
+        <li>하나의 p태그로 하나의 단락을 표현할 것. 줄바꿈마다 p태그 사용X</li>
+      </ol></br>
+    </p>
+    <h2>태그와 링크 연결</h2>
+    <hr>
+    <p>
+      목차가 필요할 때 요긴하게 사용<br>
+      <a href="realcow1239.github.io" target="blank
+      ">리얼카우 블로그로 이동</a>
+      <!--
+        중요!! html에서 속성은 태그를 의미나 기능적으로 보조
+        위의 경우, href 속성과 target 속성을 사용해서 a태그를 보조했음
+      -->
+    </p>
+    <br />
+    <h2>img(이미지)태그와 파일 경로</h2>
+    <hr>
+    <p>
+      <img src="./images/test.jpg">
+      <!--
+        참고!! .=현재 폴더 / ..=상위폴더 / ...=상상위폴더
+      -->
+    </p>
+  </body>
+</html>
